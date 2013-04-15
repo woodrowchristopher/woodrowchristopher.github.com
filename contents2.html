@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+<style media="screen" type="text/css">
+			/* NAVIGATION BUTTONS */
+			.menu {
+						height: 100px;
+						width: 100px;
+			}
+			.cssnav	{
+						position:relative;
+						top: 0px;
+						float: left;
+						margin: 50; 
+						padding: 0;
+						font-family: helvetica, sans-serif;
+						background: url(texturered4.jpg) no-repeat;
+						width: 100px;
+						height: 100px;
+	                    overflow:hidden;/* for ie to hide extra height*/
+	                    	
+			}
+			.cssnav a {
+						display: block;
+						background: url(texturered1.jpg) no-repeat;
+						font-size: 11px;
+						width: 100px;
+						height: 100px;
+						display: block;
+						float: left;
+						color: black; 
+						text-decoration: none;
+						overflow:hidden;/* for ie to hide extra height*/
+			}
+			.cssnav a:hover {
+						background: url(tranred1.png) no-repeat; 
+						z-index:1;
+			}
+			
+
+			.cssnav img {width: 100px; height: 100px; border: 0; }
+			* html a:hover {visibility:visible}
+			.cssnav a:hover img{visibility:hidden}
+
+			.cssnav span {
+					    position: static;
+					    left: 10px;top: 10px;
+					    text-align: center;
+					    width: 20px;
+					    cursor: pointer;
+	  
+					     
+			}
+			/* NAVIGATION BUTTONS 2 */
+			.menu2 {
+						height: 100px;
+						width: 100px;
+			}
+			.cssnav2	{
+						position:relative;
+						top: 0px;
+						float: left;
+						margin: 50; 
+						padding: 0;
+						font-family: helvetica, sans-serif;
+						background: url(playx.jpg) no-repeat;
+						width: 100px;
+						height: 100px;
+	                    overflow:hidden;/* for ie to hide extra height*/
+	                    	
+			}
+			.cssnav2 a {
+						display: block;
+						color: #000000;
+						font-size: 11px;
+						width: 100px;
+						height: 100px;
+						display: block;
+						float: left;
+						color: black; 
+						text-decoration: none;
+						overflow:hidden;/* for ie to hide extra height*/
+			}
+			.cssnav2 a:hover {
+						color: gray;
+			}
+			
+
+			.cssnav2 img {width: 100px; height: 100px; border: 0; }
+			* html a:hover {visibility:visible}
+			.cssnav2 a:hover img{visibility:hidden}
+
+			.cssnav2 span {
+					    position: static;
+					    left: 10px;top: 10px;
+					    text-align: center;
+					    width: 20px;
+					    cursor: pointer;
+	  
+					     
+			}
+			body {background-image:url('texturered1.jpg'); background-size:100px 100px; background-repeat:repeat; margin:0px; word-spacing:30px; font-family: helvetica, sans-serif; font-size: 11px;
+}
+
+iframe.iframehide
+{
+visibility:hidden;
+}
+div.gif
+{
+position:absolute;
+left:1000px;
+width:100px;
+}
+div.gif2
+{
+position:absolute;
+left:300px;
+width:100px;
+}
+div.gif3
+{
+position:absolute;
+top:300px;
+left:500px;
+width:100px;
+}
+			/* END OF NAVIGATION */
+
+
+
+</style>
+
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'>
+</script>
+<script>
+$(document).ready(function()
+  {
+  $('#button').click();
+    $("#anione").animate({width:'1500px',opacity:'0'},6000);
+      $("#anione").animate({left:'-6000px'});
+  });
+</script>
+
+</head>
+
+
+<body>
+<div id="anione" style="background:white;height:1500px;width:1500px;margin:0px;position:absolute;z-index:1;">
+<img src="blank.jpg" alt="blank" />
+</div>
+
+<div class="gif"><img src="texturered2.jpg" alt="green square" /></div>
+<div class="gif2"><img src="texturered3.jpg" alt="green square" /></div>
+<div class="gif3"><img src="texturered4.jpg" alt="green square" /></div>
+
+<!--second NAVIGATION START-->
+<div class="menu2">
+<div class="cssnav2"><img src="texturered4.jpg" alt="green square" /><span>chris woodrow</span></a></div>
+<div class="cssnav2"><img src="texturered1.jpg" alt="blue square" /><span>chris woodrow</span></a></div>
+<div class="cssnav2"><img src="texturered2.jpg" alt="green square" /><span>chris woodrow</span></a></div>
+
+</div>
+<!--second NAVIGATION END-->
+
+
+
+
+<!--MAIN NAVIGATION START-->
+<div class="menu">
+<div class="cssnav"><a href="frameone.html" target="iframe_a" title="play"><img src="playy.png" alt="play" /><span>chris woodrow</span></a></div>
+<div class="cssnav"><a href="empty.html" target="iframe_a" title="stop"><img src="stopx.png" alt="stop" /><span>chris woodrow</span></a></div>
+<div class="cssnav"><a href="frametwo.html" target="iframe_b" title="play"><img src="playy.png" alt="play" /><span>chris woodrow</span></a></div>
+<div class="cssnav"><a href="empty.html" target="iframe_b" title="stop"><img src="stopx.png" alt="stop" /><span>chris woodrow</span></a></div>
+<div class="cssnav"><a href="framethree.html" target="iframe_c" title="play"><img src="playy.png" alt="play" /><span>chris woodrow</span></a></div>
+<div class="cssnav"><a href="empty.html" target="iframe_c" title="stop"><img src="stopx.png" alt="stop" /><span>chris woodrow</span></a></div>
+<div class="cssnav"><a href="framefour.html" target="iframe_d" title="play"><img src="playy.png" alt="play" /><span>chris woodrow</span></a></div>
+<div class="cssnav"><a href="empty.html" target="iframe_d" title="stop"><img src="stopx.png" alt="stop" /><span>chris woodrow</span></a></div>
+
+
+</div>
+<!--MAIN NAVIGATION END-->
+<iframe scrolling="no" class="iframehide" src="empty.html" name="iframe_a" frameborder="0" width="50" height="50" ></iframe>
+<iframe scrolling="no" class="iframehide" src="empty.html" name="iframe_b" frameborder="0" width="50" height="50" ></iframe>
+<iframe scrolling="no" class="iframehide" src="empty.html" name="iframe_c" frameborder="0" width="50" height="50" ></iframe>
+<iframe scrolling="no" class="iframehide" src="empty.html" name="iframe_d" frameborder="0" width="50" height="50" ></iframe>
+
+<iframe scrolling="no" src="empty.html" name="iframe_e" frameborder="0" width="100" height="100" ></iframe>
+
+
+</body>
+</html>
+

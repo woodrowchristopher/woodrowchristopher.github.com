@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+<script>
+function myFunction()
+{
+document.getElementById("playpretendguitar").innerHTML="<audio>
+<source src="pretendguitar.mp3" type="audio/mp3"> 
+        sound dunt work
+    </audio>   
+";
+}
+</script>
+
+
+
+
+<style>
+
+p.pos_fixed
+{
+position:fixed;
+top:200px;
+right:450px;
+}
+
+
+
+
+
+body {background-color:gray;}
+
+h1
+{text-indent: 50px;
+text-align:center;
+letter-spacing:50px;
+font-family:"helvetica";
+font-color:"green";}
+
+p
+{text-indent: 50px;
+text-align:justify;
+letter-spacing:9px;
+font-family:"helvetica";}
+
+
+</style>
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+<h1> my guitar music</h1>
+
+<hr>
+
+<p>guitarmusic <br> guitarmusicelectric. </p>
+
+<p>I propose to create a webpage that exhibits recordings of my guitar performance in a way that the user/audience can interact with. There will be a visual interface in the form of a geometrical image, wherein the different colours and shapes will be able to trigger corresponding audio samples. In the process of playing with this audio/visual webpage, the listener will find relationships between the sounds and their associated visual cues, such as: in pitch, timbre, envelope/decay; and they will be able to perform using all of these sounds as an interactive composition. </p>       <p>In the further development of this project I will explore more complex levels of interactivity, and the possibility of dynamic changes in terms of moving image and evolving sound. My preliminary research suggests there is newly emerging technology for implementing the type of webpage I have in mind Ð Web Audio API has been developed that will significantly advance the sophistication of the use of sound on the web, this features a nodal schematic for routing and processing with objects, much like the programming software Max/MSP Ð which I will be working in throughout the composition and recording stages of creating the musical content, using the electric guitar primarily. Furthermore, the Web Audio API may facilitate user input, which would present interesting opportunities for enhancing the interactive qualities of this piece; for example- the user could change the pitch or amplitude of my performance using their own guitar (or voice). As a corollary to this, I would look into the manipulation of the visual shapes via webcam input, for a fully immersive experience Ð although I anticipate that this could be beyond the scope of my project. </p>
+
+
+<p>I propose to create a webpage that exhibits recordings of my guitar performance in a way that the user/audience can interact with. There will be a visual interface in the form of a geometrical image, wherein the different colours and shapes will be able to trigger corresponding audio samples. In the process of playing with this audio/visual webpage, the listener will find relationships between the sounds and their associated visual cues, such as: in pitch, timbre, envelope/decay; and they will be able to perform using all of these sounds as an interactive composition. </p>       <p>In the further development of this project I will explore more complex levels of interactivity, and the possibility of dynamic changes in terms of moving image and evolving sound. My preliminary research suggests there is newly emerging technology for implementing the type of webpage I have in mind Ð Web Audio API has been developed that will significantly advance the sophistication of the use of sound on the web, this features a nodal schematic for routing and processing with objects, much like the programming software Max/MSP Ð which I will be working in throughout the composition and recording stages of creating the musical content, using the electric guitar primarily. Furthermore, the Web Audio API may facilitate user input, which would present interesting opportunities for enhancing the interactive qualities of this piece; for example- the user could change the pitch or amplitude of my performance using their own guitar (or voice). As a corollary to this, I would look into the manipulation of the visual shapes via webcam input, for a fully immersive experience Ð although I anticipate that this could be beyond the scope of my project. </p>
+
+
+
+
+<p class="pos_fixed">
+
+<img src="koopmansimage2nflip.jpg" width="640" height="480" alt="koopmans" usemap="#koopmansmap">
+
+</p>
+
+
+<map name="koopmansmap">
+  <!--how do I get javascript to play audio?    	-->
+  <area id="playpretendguitar" shape="poly" coords="164,191 175,364 209,321 228,210 200,180"  href="pretendguitar.mp3" alt="guitar"
+		onmouseover="myFunction()">  
+</map>
+
+
+<audio src="pretendguitar.mp3" controls preload="auto" />
+
+
+</body>
+</html>
